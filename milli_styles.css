@@ -1,4 +1,69 @@
-html img#potato {
-    width: 100%;
+@charset "utf-8";
+
+/* 
+Author: Millione Johnson
+Date:  9/6/18    
+ */
+
+
+html{
+    /* background-image: url('tree-nature-forest-wilderness-branch-mountain-816014-pxhere.com.jpg');
+    background: rgb(74,135,68);
+    background: linear-gradient(90deg, rgba(74,135,68,0.7399334733893557) 23%, rgba(62,180,95,0.7539390756302521) 68%, rgba(110,200,151,0.9528186274509804) 76%);
+} */
+/* 
+body img#potato {
     background-size: cover;
+    align: center;
+    background-position: fixed;
+    filter: opacity(80%); */
 }
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background: rgb(74,135,68);
+    background: linear-gradient(90deg, rgba(74,135,68,0.7399334733893557) 23%, rgba(62,180,95,0.7539390756302521) 68%, rgba(110,200,151,0.9528186274509804) 76%);
+    /* background-color: #333; */
+  }
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+p {
+    background-color: rgba(128, 128, 128, 0.267);
+    color: white;
+}
+  
+h1 {
+    color: white;
+    text-align: center;
+}
+body {
+    background-image: url('tree-nature-forest-wilderness-branch-mountain-816014-pxhere.com.jpg');
+}
+
+footer {
+    background: rgb(74,135,68);
+    background: linear-gradient(90deg, rgba(74,135,68,0.7399334733893557) 23%, rgba(62,180,95,0.7539390756302521) 68%, rgba(110,200,151,0.9528186274509804) 76%);
+    /* background-color: #f1f1f163; */
+    padding: 10px;
+}
+
+ @import url('@import url('https://fonts.googleapis.com/css?family=Oswald')
+
+
+ 
