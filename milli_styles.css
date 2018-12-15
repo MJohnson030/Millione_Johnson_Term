@@ -6,64 +6,79 @@ Date:  9/6/18
  */
 
 
-html{
+
+
+
     /* background-image: url('tree-nature-forest-wilderness-branch-mountain-816014-pxhere.com.jpg');
     background: rgb(74,135,68);
     background: linear-gradient(90deg, rgba(74,135,68,0.7399334733893557) 23%, rgba(62,180,95,0.7539390756302521) 68%, rgba(110,200,151,0.9528186274509804) 76%);
 } */
-/* 
+    /* 
 body img#potato {
     background-size: cover;
     align: center;
     background-position: fixed;
     filter: opacity(80%); */
-}
+
+html {
+    background-image: url(tree-nature-forest-wilderness-branch-mountain-816014-pxhere.com.jpg); 
+} 
 
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background: rgb(74,135,68);
-    background: linear-gradient(90deg, rgba(74,135,68,0.7399334733893557) 23%, rgba(62,180,95,0.7539390756302521) 68%, rgba(110,200,151,0.9528186274509804) 76%);
+    background: rgb(74, 135, 68);
+    background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
+    border: 6px solid rgba(255, 255, 255, 0.623); 
     /* background-color: #333; */
-  }
+}
+
+::after {
+    clear: both;
+    content: "";
+    display: table;
+}
 
 /* Style the topnav links */
 .topnav a {
-    float: left;
+    float: right;
     display: block;
-    color: #f2f2f2;
+    color: rgba(255, 255, 255, 0.623);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: #ddd;
+    /* border-radius: 80%; */
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: rgba(255, 255, 255, 0.623) ;
     color: black;
-  }
+}
 
 p {
-    background-color: rgba(128, 128, 128, 0.267);
+    background-color: rgba(128, 128, 128, 0.459);
     color: white;
 }
-  
+
 h1 {
     color: white;
     text-align: center;
 }
+
 body {
-    background-image: url('tree-nature-forest-wilderness-branch-mountain-816014-pxhere.com.jpg');
+    /* width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('tree-nature-forest-wilderness-branch-mountain-816014-pxhere.com.jpg'); */
 }
 
 footer {
-    background: rgb(74,135,68);
-    background: linear-gradient(90deg, rgba(74,135,68,0.7399334733893557) 23%, rgba(62,180,95,0.7539390756302521) 68%, rgba(110,200,151,0.9528186274509804) 76%);
+    background: rgb(74, 135, 68);
+    background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
+    border: 6px solid rgba(255, 255, 255, 0.623) ; 
     /* background-color: #f1f1f163; */
     padding: 10px;
 }
 
- @import url('@import url('https://fonts.googleapis.com/css?family=Oswald')
-
-
- 
+@import url('@import url('https: //fonts.googleapis.com/css?family=Oswald')
