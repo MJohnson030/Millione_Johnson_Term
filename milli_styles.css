@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: "oswald";
-    src: url(https://fonts.googleapis.com/css?family=Oswald);
+    font-family: 'Staatliches', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Staatliches');
 }
 /* 
 Author: Millione Johnson
@@ -28,10 +28,18 @@ html {
     background-image: url(tree-nature-forest-wilderness-branch-mountain-816014-pxhere.com.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
+    font-family: 'Staatliches', cursive;
 } 
+
+img#my_face {
+    width: 29%;
+    word-wrap: normal;
+}
 
 /* Style the top navigation bar */
 .topnav {
+    display: block;
+    float: left;
     overflow: hidden;
     /* background: rgb(255, 255, 255); */
     background: #3b7056f8;
@@ -40,8 +48,10 @@ html {
     padding: 0px;
     margin: 0px;
     width: 100%;
+    
     box-shadow: 5px;
     position: sticky; 
+    
     /* background-color: #333; */
 }
 
@@ -81,7 +91,6 @@ p {
     background: rgb(74, 135, 68);
     background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
     color: white;
-    font-family: 'Oswald', sans-serif;
     font-size: 1.75em;
 }
 
@@ -90,7 +99,7 @@ h1 {
     background: rgb(74, 135, 68);
     background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
     border: 10px ridge rgba(255, 255, 255, 0.623) ; 
-    font-size: 10em;
+    font-size: 8em;
     text-align: center;
 }
 
@@ -98,8 +107,6 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Oswald', sans-serif;
-    font-style: uppercase;
     /* background: rgb(74, 135, 68);
     background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%); */
 }
