@@ -34,8 +34,19 @@ html {
 img#my_face {
     width: 29%;
     word-wrap: normal;
+    border: solid 8px gray;
     box-shadow: 5px 10px;
-    border-radius: 90%;
+    float: left;
+    
+}
+
+img#West-MEC {
+    /* float: right; */
+    position: relative;
+    top: -195px;
+    left: 700px;
+    border: solid 6px orange;
+    border-radius: 20%;
 }
 
 /* Style the top navigation bar */
@@ -87,21 +98,80 @@ li:last-child {
     color: black;
 }
 
-p {
+p#bio {
     /* background-color: rgba(128, 128, 128, 0.459); */
     background: rgb(74, 135, 68);
     background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
     color: white;
     font-size: 1.75em;
+    width: 64%;
+    float: right;
+    margin: 0;
+    padding: 0;
+
 }
 
-h1 {
+p {
+    background: rgb(74, 135, 68);
+    background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
+    color: white;
+    font-size: 1.75em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 3px solid rgb(192, 189, 189);  
+}
+
+p#education {
+
+    background: rgb(74, 135, 68);
+    background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%); 
+    color: white;
+    font-size: 1.75em;
+    width: 50%;
+    margin: 0;
+    padding: 0; 
+    border: 3px solid rgb(192, 189, 189);  
+}
+
+h3 {
+    color: rgb(253, 255, 253);
+    background: rgb(74, 135, 68);
+    background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
+    border: 10px ridge rgba(255, 255, 255, 0.623) ; 
+    font-size: 4em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 60%;
+}
+h1#coursework {
+    text-align: left;
+    color: white;
+    background: rgb(74, 135, 68);
+    background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
+    border: 8px ridge rgba(255, 255, 255, 0.623) ;
+    width: 50%; 
+    font-size: 29px;
+    text-align: center;
+}
+h1#name{
     color: white;
     background: rgb(74, 135, 68);
     background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
     border: 10px ridge rgba(255, 255, 255, 0.623) ; 
     font-size: 8em;
     text-align: center;
+}
+
+h1#education{
+    color: white;
+    background: rgb(74, 135, 68);
+    background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
+    border: 10px ridge rgba(255, 255, 255, 0.623) ; 
+    font-size: 3em;
+    text-align: left;  
 }
 
 body {
@@ -117,6 +187,5 @@ footer {
     border: 6px ridge rgba(255, 255, 255, 0.623) ; 
     /* background-color: #f1f1f163; */
     color: white;
-    padding: 10px;
 }
 
