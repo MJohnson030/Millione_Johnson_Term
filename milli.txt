@@ -7,12 +7,12 @@ Nice to meet you! My name is Millione Johnson. I am a Divergent, purposeful firs
 Valley Vista High School: Surprise, AZ	Expected Grad Date: May 2020 GPA: 3.4
 West-MEC Coding Program: Glendale, AZ Expected Grad Date: May 2020 	
 
-Relevant Coursework: Honors Biology, Honors Algebra 1, Honors English 1/2/3/4/5/6, World History Honors, AP Computer Science and Principles, Japanese 1/2/3/4/5/6, Advanced Show Choir, Marching Band, Wind Ensemble, ischool (online school), Anatomy & Physiology, Precalculus
+Relevant Coursework: Honors Biology, Honors Algebra 1, Honors English 1/2/3/4/5/6, World History Honors, AP Computer Science and Principles, Japanese 1/2/3/4/5/6, Advanced Show Choir, Marching Band, Wind Ensemble, ischool (online school), Anatomy & Physiology, Precalculus, Cambridge Academy 
 
 
 
 
-|==Skills==|
+|==Skillset==|
 Knowledge, Skills, and Abilities:
 Reading Comprehension — Understanding written sentences and paragraphs in work related documents.
 
@@ -64,16 +64,17 @@ West-MEC Student Advisory Council (8/2018 - Present)
 
 
 
-
-
-
-
 |==Contact==|
 
 Home: (623)-535-8166
 Cell: (623)-451-7037
 
 Email: shockin404@gmail.com
+
+Icons: 
+<i class=“fab fa-facebook”></i>
+<i class=“fab fa-twitter”></i>
+<i class="fab fa-instagram"></i>
 
 
 |==Footer==|

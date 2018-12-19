@@ -34,6 +34,8 @@ html {
 img#my_face {
     width: 29%;
     word-wrap: normal;
+    box-shadow: 5px 10px;
+    border-radius: 90%;
 }
 
 /* Style the top navigation bar */
@@ -47,8 +49,7 @@ img#my_face {
     border: 10px ridge rgba(255, 255, 255, 0.623);
     padding: 0px;
     margin: 0px;
-    width: 100%;
-    
+    width: 100%; 
     box-shadow: 5px;
     position: sticky; 
     
@@ -115,6 +116,7 @@ footer {
     background: #3b7056f8;
     border: 6px ridge rgba(255, 255, 255, 0.623) ; 
     /* background-color: #f1f1f163; */
+    color: white;
     padding: 10px;
 }
 
