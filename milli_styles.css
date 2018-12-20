@@ -26,10 +26,18 @@ body img#potato {
 
 html {
     background-image: url(tree-nature-forest-wilderness-branch-mountain-816014-pxhere.com.jpg);
-    background-repeat: no-repeat; 
-    background-size: cover;
+    background-repeat: repeat-y; 
+    /* background-size:; */
     font-family: 'Staatliches', cursive;
 } 
+
+li span {
+    font-size: 35px;
+    background-color: rgba(180, 175, 175, 0.596);
+    color: white;
+    order: solid 8px gray;
+
+}
 
 img#my_face {
     width: 29%;
