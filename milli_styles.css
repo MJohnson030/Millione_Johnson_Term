@@ -112,13 +112,25 @@ p#bio {
     background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
     color: white;
     font-size: 1.75em;
-    width: 64%;
+    width: 90%;
     float: right;
     margin: 0;
     padding: 0;
 
 }
 
+p#bio2 {
+    /* background-color: rgba(128, 128, 128, 0.459); */
+    background: rgb(74, 135, 68);
+    background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
+    color: white;
+    font-size: 1.75em;
+    width: 75%;
+    float: right;
+    margin: 0;
+    padding: 0;
+
+}
 p {
     background: rgb(74, 135, 68);
     background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
@@ -219,10 +231,19 @@ footer {
     text-align: center;
     /* font-size: 40px; */
     top: -60px;
-    left: 450px;
+    left: 420px;
     background: rgb(74, 135, 68);
     background: linear-gradient(90deg, rgba(74, 135, 68, 0.7399334733893557) 23%, rgba(62, 180, 95, 0.582) 68%, rgba(67, 133, 96, 0.678) 76%);
     width: 20%;
     border: 10px ridge rgba(255, 255, 255, 0.623); 
+}
+
+a#pagetop {
+    text-align: center;
+    color: white;
+    background-color: rgba(54, 124, 63, 0.582);
+    font-size: 24px;
+    position: relative;
+    left: 480px;
 }
 
