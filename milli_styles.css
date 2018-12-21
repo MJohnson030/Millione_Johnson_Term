@@ -139,7 +139,8 @@ p {
     width: 100%;
     margin: 0;
     padding: 0;
-    border: 3px solid rgb(192, 189, 189);  
+    border: 3px solid rgb(192, 189, 189);
+    box-shadow: 3em;  
 }
 
 p#education {
@@ -224,6 +225,9 @@ footer {
     border: 6px ridge rgba(255, 255, 255, 0.623) ; 
     /* background-color: #f1f1f163; */
     color: white;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 20px;
 }
 
 .col-1-3 {
